@@ -1,0 +1,20 @@
+{
+  "name": "zipkin-instrumentation-mysql",
+  "version": "0.0.1",
+  "description": "Interceptor for mysql clients",
+  "main": "lib/zipkinClient.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "prepublish": "npm run build",
+    "prepare": "npm run build"
+  },
+  "author": "Mrinal Purohit <github@mrinalpurohit.in>",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/iammrinal0/zipkin-instrumentation-mysql",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2015": "^6.18.0",
+    "mysql": "^2.15.0",
+    "zipkin": "^0.13.0"
+  }
+}
