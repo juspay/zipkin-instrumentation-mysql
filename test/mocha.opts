@@ -1,5 +1,4 @@
 --reporter spec
 --recursive
---growl
 --require test/helper.js
 test/*.js
